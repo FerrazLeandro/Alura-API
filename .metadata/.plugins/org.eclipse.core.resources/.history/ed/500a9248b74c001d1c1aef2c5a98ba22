@@ -1,0 +1,19 @@
+package br.com.alura.forum.controller.dto;
+
+import java.time.LocalDateTime;
+
+public class RespostaDto {
+	
+	private Long id;
+	private String mensagem;
+	private LocalDateTime datacriacao;
+	private String nomeAutor;
+	
+	public RespostaDto() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	
+}
